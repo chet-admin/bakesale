@@ -1,5 +1,5 @@
 .bg-light{
-  background:  rgb(0, 154, 217) !important;
+  background: #5E5CE3!important;
 
 }
 
@@ -25,5 +25,5 @@
 }
 
 .nav-item:hover a{
-  color: rgb(0, 154, 217) !important;
+  color: #5E5CE3!important;
 }

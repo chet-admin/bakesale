@@ -34,7 +34,7 @@ export class  CauseDetailsComponent implements OnInit, OnDestroy {
   getAllDeals(selectedUser) {
     this.showLoader = true;
     this._apiInterface.get('api/deals/' + selectedUser).subscribe((item) => {
-      console.log(item)
+      console.log("itemmmm",item);
       this.causeDetails = item;
       // Object.values(item).forEach(feed => {
       //   this.followersList.push(feed)

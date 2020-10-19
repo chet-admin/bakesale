@@ -16,15 +16,15 @@
   border-radius: 20px;
   appearance: none;
   color: #FFF;
-  background: rgb(0, 154, 217) !important;
-  border: 1px solid rgb(0, 154, 217) !important;
+  background: #5E5CE3 !important;
+  border: 1px solid #5E5CE3 !important;
   transition: .2s cubic-bezier(.455,.03,.515,.955);
   /* transition-property: color background; */
 }
 
 .c-button:hover {
   background: #FFF !important;
-  color:  rgb(0, 154, 217) !important;
+  color:  #5E5CE3 !important;
 }
 
 .avatar-img{
