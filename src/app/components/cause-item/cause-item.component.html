@@ -1,0 +1,18 @@
+<div class="card" >
+  <div class="title mb-2">
+    <span>
+      {{cause.title}}
+    </span>
+  </div>
+  <div class="row">
+    <div class="col-12 col-sm-6">
+      {{cause.price | currency}}
+    </div>
+    <div class="col-12 col-sm-6">
+      {{cause.cause.name}}
+    </div>
+  </div>
+  <a class=" btn c-button" (click)='gotoCauseDetails(cause.key)' >
+    More Info
+  </a>
+</div>

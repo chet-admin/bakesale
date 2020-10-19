@@ -1,0 +1,24 @@
+<div class="container mb-4 mt-3 card">
+  <div class="row mt-4 d-flex  justify-content-center">
+    <div class="col-12 title">
+      <div class="  img-responsive avatar d-flex flex-column align-items-center mt-3" *ngIf="causeDetails.user.avatar && causeDetails.user.avatar ? true : false">
+        <img src="{{causeDetails.user.avatar}}" class="avatar-img" >
+        <h3>{{causeDetails.user.name}}</h3>
+      </div>
+      <div class="mb-3">
+        <h3  class="text-center">
+          {{causeDetails.title}}
+        </h3>
+        <p class="text-center mt-2">  {{causeDetails.description}}</p>
+      </div>
+    </div>
+  </div>
+  <div class="row d-flex justify-content-center mt-3">
+    <div class="col-sm-3 img-responsive" *ngFor="let imgItem of causeDetails.media;">
+      <img src="{{imgItem}}" style="width: 100%;min-height: 200px;" >
+    </div>
+
+  </div>
+
+  <hr>
+</div>
